@@ -5,7 +5,7 @@ import com.example.CRUD_BE_MDB.Model.Students;
 import java.util.List;
 
 public interface StudentService {
-    Students createStudent(Students employee);
+    Students createStudent(Students student);
     Students getStudentById(long id);
     List<Students> getAllStudents();
     Students updateStudent(long id, Students student);
